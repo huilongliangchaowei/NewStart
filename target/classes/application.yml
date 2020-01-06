@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+person:
+  age: 18
+  name: zhangsan
+  isBoss: false
+  brith: 2018/01/02
+  maps: {key1: v1,key2: v2}
+  dog:
+    name: aqiu
+    age: 1
+  list:
+    - lisi
+    - wangwu
