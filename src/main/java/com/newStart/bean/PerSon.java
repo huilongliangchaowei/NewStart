@@ -1,6 +1,8 @@
 package com.newStart.bean;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -9,14 +11,22 @@ import java.util.Map;
 
 
 /**
- * 将配置文件中的数据弄到类中来@ConfigurationProperties(prefix = "person")
+ * 将配置文件中的数据弄到类中来@ConfigurationProperties(prefix = "person")  松散语法绑定
+ *          默认从全局配置文件中获取值
+ * @Validated JSP303数据校验
+ *          @Email 校验数据是否是邮箱地址格式
  *
+ * @Value 注入值单个变量  可以使用spel获取
+ *          #{11*2}     取配置文件中的值 ${值的key}
  *
  * */
+@PropertySource(value = {"classpath:person.properties"})
 @Component
 @ConfigurationProperties(prefix = "person")
 public class PerSon {
+
     private int age;
+//    @Value("刘六")
     private String name;
     private boolean isBoss;
     private Date brith;

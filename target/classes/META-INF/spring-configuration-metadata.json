@@ -1,48 +1,48 @@
 {
+  "hints": [],
   "groups": [
     {
+      "sourceType": "com.newStart.bean.PerSon",
       "name": "person",
-      "type": "com.newStart.bean.PerSon",
-      "sourceType": "com.newStart.bean.PerSon"
+      "type": "com.newStart.bean.PerSon"
     }
   ],
   "properties": [
     {
-      "name": "person.age",
-      "type": "java.lang.Integer",
       "sourceType": "com.newStart.bean.PerSon",
-      "defaultValue": 0
+      "defaultValue": 0,
+      "name": "person.age",
+      "type": "java.lang.Integer"
     },
     {
+      "sourceType": "com.newStart.bean.PerSon",
       "name": "person.boss",
-      "type": "java.lang.Boolean",
-      "sourceType": "com.newStart.bean.PerSon"
+      "type": "java.lang.Boolean"
     },
     {
+      "sourceType": "com.newStart.bean.PerSon",
       "name": "person.brith",
-      "type": "java.util.Date",
-      "sourceType": "com.newStart.bean.PerSon"
+      "type": "java.util.Date"
     },
     {
+      "sourceType": "com.newStart.bean.PerSon",
       "name": "person.dog",
-      "type": "com.newStart.bean.Dog",
-      "sourceType": "com.newStart.bean.PerSon"
+      "type": "com.newStart.bean.Dog"
     },
     {
+      "sourceType": "com.newStart.bean.PerSon",
       "name": "person.list",
-      "type": "java.util.List<java.lang.Object>",
-      "sourceType": "com.newStart.bean.PerSon"
+      "type": "java.util.List<java.lang.Object>"
     },
     {
+      "sourceType": "com.newStart.bean.PerSon",
       "name": "person.maps",
-      "type": "java.util.Map<java.lang.String,java.lang.Object>",
-      "sourceType": "com.newStart.bean.PerSon"
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
     },
     {
+      "sourceType": "com.newStart.bean.PerSon",
       "name": "person.name",
-      "type": "java.lang.String",
-      "sourceType": "com.newStart.bean.PerSon"
+      "type": "java.lang.String"
     }
-  ],
-  "hints": []
+  ]
 }
