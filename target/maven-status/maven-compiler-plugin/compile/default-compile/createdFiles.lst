@@ -1,6 +1,5 @@
 com\newStart\bean\PerSon.class
 com\newStart\Contorller\HelloContorller.class
 com\newStart\HelloSpringWorld.class
-com\newStart\Test01.class
 com\newStart\bean\Dog.class
 META-INF\spring-configuration-metadata.json
